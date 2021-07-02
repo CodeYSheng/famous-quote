@@ -3,14 +3,85 @@
 <head>
 	<meta charset="utf-8">
 	<title>Music Album</title>
+	<style type = "text/css">
+
+	body
+	{
+		background-color: limegreen;
+	}
+
+	*
+		{
+			margin:  0;
+			padding: 0;
+		}
+
+	a 
+	{
+		background-color: white;
+		text-decoration: none;
+
+	}
+
+	a:hover 
+	{
+		text-decoration: underline;
+		color: blue;
+	}
+
+	h1
+	{
+		font-family: old standard TT;
+		font-weight: bold;
+		text-decoration: underline;
+		color: darkblue;
+	}
+
+	h2
+	{
+		font-family: old standard TT;
+		font-weight: bold;
+		text-decoration: underline;
+		color: darkblue;
+	}
+
+	#image
+	{
+		background-color: black;
+		width: 200px;
+		height: 200px;
+		padding: 25px;
+	}
+
+	#listLinks
+	{
+		float:left;
+		margin-left: 30px;
+	}
+
+	ol
+	{
+		font-family: old standard TT;
+		font-size: 15pt;
+	}
+	table
+	{
+		font-family: old standard TT;
+		font-size: 15pt;
+		width: 250px;
+		height: 250px;
+	}
+
+	</style>
 </head>
 <body>
 	<h1>Imagine Dragons</h1>
-	<img src = "evolve-album-cover.jpg">
+	<div id = "image"><img src = "evolve-album-cover.jpg" width = "200px" length = "200px"></div>
 
 	<h2>Evolve</h2>
-	<ol>
 
+	<div id = "listLinks">
+	<ol>
 		<li>Next To Me</li>
 		<li>I Don't Know Why</li>
 		<li>Whatever It takes</li>
@@ -23,38 +94,39 @@
 		<li>Thunder</li>
 		<li>Start Over</li>
 		<li>Dancing In The Dark</li>
-
+		<a href = "https://www.imaginedragonsmusic.com/">Website</a>, <a href = "https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>, <a href = "https://www.instagram.com/imaginedragons/">Instagram</a>, <a href = "https://www.facebook.com/ImagineDragons">Facebook</a>, <a href = "https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA">Youtube</a>.
 	</ol>
+	</div>
 
+	<div id = "table">
 	<table border = "1px">
 
-		<tr bgcolor = "gray">
+		<tr bgcolor = "white">
 			<td><b>Year</b></td>
 			<td><b>Name</b></td>
 		</tr>
 
-		<tr>
+		<tr bgcolor = "silver">
 			<td>2012</td>
 			<td>Night Visions</td>
 		</tr>
 
-		<tr>
+		<tr bgcolor = "silver">
 			<td>2015</td>
 			<td>Smoke + Mirrors</td>
 		</tr>
 
-		<tr>
+		<tr bgcolor = "silver">
 			<td>2017</td>
 			<td>Evolve</td>
 		</tr>
 
-		<tr>
+		<tr bgcolor = "silver">
 			<td>2018</td>
 			<td>Origins</td>
 		</tr>
 	</table>
-
-	<a href = "https://www.imaginedragonsmusic.com/">Website</a>, <a href = "https://twitter.com/Imaginedragons?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>, <a href = "https://www.instagram.com/imaginedragons/">Instagram</a>, <a href = "https://www.facebook.com/ImagineDragons">Facebook</a>, <a href = "https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA">Youtube</a>.
+	</div>
 
 </body>
 </html>
